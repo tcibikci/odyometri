@@ -186,49 +186,49 @@ function comparison() {
 
                 //Hesaplanması biten fark verileri tabloda farklar yerine atanıyor
                 if (x250hz <= 0)
-                    $('#difL250hz').html("<label class='text-danger'>" + x250hz + "<i class='fa fa-arrow-down'></i></label>");
-                else
                     $('#difL250hz').html("<label class='text-success'>" + x250hz + "<i class='fa fa-arrow-up'></i></label>");
+                else
+                    $('#difL250hz').html("<label class='text-danger'>" + x250hz + "<i class='fa fa-arrow-down'></i></label>");
 
                 if (x500hz <= 0)
-                    $('#difL500hz').html("<label class='text-danger'>" + x500hz + "<i class='fa fa-arrow-down'></i></label>");
-                else
                     $('#difL500hz').html("<label class='text-success'>" + x500hz + "<i class='fa fa-arrow-up'></i></label>");
+                else
+                    $('#difL500hz').html("<label class='text-danger'>" + x500hz + "<i class='fa fa-arrow-down'></i></label>");
 
                 if (x1khz <= 0)
-                    $('#difL1khz').html("<label class='text-danger'>" + x1khz + "<i class='fa fa-arrow-down'></i></label>");
-                else
                     $('#difL1khz').html("<label class='text-success'>" + x1khz + "<i class='fa fa-arrow-up'></i></label>");
+                else
+                    $('#difL1khz').html("<label class='text-danger'>" + x1khz + "<i class='fa fa-arrow-down'></i></label>");
 
                 if (x2khz <= 0)
-                    $('#difL2khz').html("<label class='text-danger'>" + x2khz + "<i class='fa fa-arrow-down'></i></label>");
-                else
                     $('#difL2khz').html("<label class='text-success'>" + x2khz + "<i class='fa fa-arrow-up'></i></label>");
+                else
+                    $('#difL2khz').html("<label class='text-danger'>" + x2khz + "<i class='fa fa-arrow-down'></i></label>");
 
                 if (x3khz <= 0)
-                    $('#difL3khz').html("<label class='text-danger'>" + x3khz + "<i class='fa fa-arrow-down'></i></label>");
-                else
                     $('#difL3khz').html("<label class='text-success'>" + x3khz + "<i class='fa fa-arrow-up'></i></label>");
+                else
+                    $('#difL3khz').html("<label class='text-danger'>" + x3khz + "<i class='fa fa-arrow-down'></i></label>");
 
                 if (x4khz <= 0)
-                    $('#difL4khz').html("<label class='text-danger'>" + x4khz + "<i class='fa fa-arrow-down'></i></label>");
-                else
                     $('#difL4khz').html("<label class='text-success'>" + x4khz + "<i class='fa fa-arrow-up'></i></label>");
+                else
+                    $('#difL4khz').html("<label class='text-danger'>" + x4khz + "<i class='fa fa-arrow-down'></i></label>");
 
                 if (x6khz <= 0)
-                    $('#difL6khz').html("<label class='text-danger'>" + x6khz + "<i class='fa fa-arrow-down'></i></label>");
-                else
                     $('#difL6khz').html("<label class='text-success'>" + x6khz + "<i class='fa fa-arrow-up'></i></label>");
+                else
+                    $('#difL6khz').html("<label class='text-danger'>" + x6khz + "<i class='fa fa-arrow-down'></i></label>");
 
                 if (x8khz <= 0)
-                    $('#difL8khz').html("<label class='text-danger'>" + x8khz + "<i class='fa fa-arrow-down'></i></label>");
-                else
                     $('#difL8khz').html("<label class='text-success'>" + x8khz + "<i class='fa fa-arrow-up'></i></label>");
+                else
+                    $('#difL8khz').html("<label class='text-danger'>" + x8khz + "<i class='fa fa-arrow-down'></i></label>");
 
                 if (xSSO <= 0)
-                    $('#difLSSO').html("<label class='text-danger'>" + xSSO + "<i class='fa fa-arrow-down'></i></label>");
-                else
                     $('#difLSSO').html("<label class='text-success'>" + xSSO + "<i class='fa fa-arrow-up'></i></label>");
+                else
+                    $('#difLSSO').html("<label class='text-danger'>" + xSSO + "<i class='fa fa-arrow-down'></i></label>");
 
                 /*--END OF LEFT EAR--*/
 
@@ -285,49 +285,50 @@ function comparison() {
 
                 //Hesaplanması biten fark verileri tabloda farklar yerine atanıyor
                 if (y250hz <= 0)
-                    $('#difR250hz').html("<label class='text-danger'>" + y250hz + "<i class='fa fa-arrow-down'></i></label>");
-                else
                     $('#difR250hz').html("<label class='text-success'>" + y250hz + "<i class='fa fa-arrow-up'></i></label>");
+                else
+                    $('#difR250hz').html("<label class='text-danger'>" + y250hz + "<i class='fa fa-arrow-down'></i></label>");
 
                 if (y500hz <= 0)
-                    $('#difR500hz').html("<label class='text-danger'>" + y500hz + "<i class='fa fa-arrow-down'></i></label>");
-                else
                     $('#difR500hz').html("<label class='text-success'>" + y500hz + "<i class='fa fa-arrow-up'></i></label>");
+                else
+                    $('#difR500hz').html("<label class='text-danger'>" + y500hz + "<i class='fa fa-arrow-down'></i></label>");
 
                 if (y1khz <= 0)
-                    $('#difR1khz').html("<label class='text-danger'>" + y1khz + "<i class='fa fa-arrow-down'></i></label>");
-                else
                     $('#difR1khz').html("<label class='text-success'>" + y1khz + "<i class='fa fa-arrow-up'></i></label>");
+                else
+                    $('#difR1khz').html("<label class='text-danger'>" + y1khz + "<i class='fa fa-arrow-down'></i></label>");
 
                 if (y2khz <= 0)
-                    $('#difR2khz').html("<label class='text-danger'>" + y2khz + "<i class='fa fa-arrow-down'></i></label>");
-                else
                     $('#difR2khz').html("<label class='text-success'>" + y2khz + "<i class='fa fa-arrow-up'></i></label>");
+                else
+                    $('#difR2khz').html("<label class='text-danger'>" + y2khz + "<i class='fa fa-arrow-down'></i></label>");
 
                 if (y3khz <= 0)
-                    $('#difR3khz').html("<label class='text-danger'>" + y3khz + "<i class='fa fa-arrow-down'></i></label>");
-                else
                     $('#difR3khz').html("<label class='text-success'>" + y3khz + "<i class='fa fa-arrow-up'></i></label>");
+                else
+                    $('#difR3khz').html("<label class='text-danger'>" + y3khz + "<i class='fa fa-arrow-down'></i></label>");
 
                 if (y4khz <= 0)
-                    $('#difR4khz').html("<label class='text-danger'>" + y4khz + "<i class='fa fa-arrow-down'></i></label>");
-                else
                     $('#difR4khz').html("<label class='text-success'>" + y4khz + "<i class='fa fa-arrow-up'></i></label>");
+                else
+                    $('#difR4khz').html("<label class='text-danger'>" + y4khz + "<i class='fa fa-arrow-down'></i></label>");
 
                 if (y6khz <= 0)
-                    $('#difR6khz').html("<label class='text-danger'>" + y6khz + "<i class='fa fa-arrow-down'></i></label>");
-                else
                     $('#difR6khz').html("<label class='text-success'>" + y6khz + "<i class='fa fa-arrow-up'></i></label>");
+                else
+                    $('#difR6khz').html("<label class='text-danger'>" + y6khz + "<i class='fa fa-arrow-down'></i></label>");
 
                 if (y8khz <= 0)
-                    $('#difR8khz').html("<label class='text-danger'>" + y8khz + "<i class='fa fa-arrow-down'></i></label>");
-                else
                     $('#difR8khz').html("<label class='text-success'>" + y8khz + "<i class='fa fa-arrow-up'></i></label>");
+                else
+                    $('#difR8khz').html("<label class='text-danger'>" + y8khz + "<i class='fa fa-arrow-down'></i></label>");
 
                 if (ySSO <= 0)
-                    $('#difRSSO').html("<label class='text-danger'>" + ySSO + "<i class='fa fa-arrow-down'></i></label>");
-                else
                     $('#difRSSO').html("<label class='text-success'>" + ySSO + "<i class='fa fa-arrow-up'></i></label>");
+                else
+                    $('#difRSSO').html("<label class='text-danger'>" + ySSO + "<i class='fa fa-arrow-down'></i></label>");
+
 
 
                 /*--END OF RIGHT EAR--*/
